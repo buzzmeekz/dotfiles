@@ -78,6 +78,5 @@
         "rubocop": true
     },
     "ruby.intellisense": "rubyLocate",
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": -1
+    "workbench.startupEditor": "newUntitledFile"
 }
