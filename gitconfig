@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = conserva@gmail.com
+	name = Miguel Tavares
