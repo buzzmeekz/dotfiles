@@ -56,26 +56,33 @@
     "**/tmp/**": true,
     "**/vendor/**": true
   },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/tmp": true,
+    "**/log": true
+  },
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "[python]": {
     "editor.tabSize": 4
   },
-  "python.pythonPath": "~/.pyenv/shims/python",
-  "python.formatting.provider": "yapf",
-  "ruby.useBundler": true,
-  "ruby.useLanguageServer": true,
-  "ruby.format": "rubocop",
-  "ruby.lint": {
-    "rubocop": true
+  "[ruby]": {
+    "editor.formatOnSave": true
   },
-  "ruby.intellisense": "rubyLocate",
-  "workbench.startupEditor": "newUntitledFile",
-  "git.autofetch": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "eslint.packageManager": "yarn",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.codeLens": true,
   "prettier.configPath": "./prettier.config.js",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -93,6 +100,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "files.associations": {
+    "*.eslintrc": "json",
+    "*.babelrc": "json",
+    ".prettierrc": "json",
+    "*.yml": "yaml",
+    "*.yaml": "yaml"
+  },
   "diffEditor.renderSideBySide": true,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": true
@@ -100,5 +114,10 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0,
   "workbench.colorTheme": "Cobalt2",
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.packageManager": "yarn",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
