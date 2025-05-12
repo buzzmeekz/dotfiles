@@ -86,5 +86,6 @@
     "suppressCommitHasNoPreviousCommitWarning": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Cobalt2"
 }
