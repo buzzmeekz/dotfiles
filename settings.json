@@ -6,10 +6,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.renderControlCharacters": true,
   "editor.snippetSuggestions": "top",
   "editor.trimAutoWhitespace": true,
@@ -78,8 +75,23 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "eslint.packageManager": "yarn",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": "./prettier.config.js",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "diffEditor.renderSideBySide": true,
   "gitlens.advanced.messages": {
