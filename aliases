@@ -18,9 +18,16 @@ alias gb="git branch"
 alias rs="rails s"
 alias rc="rails c"
 alias rcs="rails c --sandbox"
+alias rdb="rails db:migrate:with_data"
 alias killrails="kill -9 $(lsof -i tcp:3000 -t)"
 alias sidekiq="bundle exec sidekiq"
 alias rspec="bundle exec rspec"
 alias rubocop="bundle exec rubocop"
 alias rubocop_auto="rubocop --auto-correct"
 alias rubocop_auto_all="rubocop --auto-correct-all"
+alias bi="bundle install"
+
+# JS
+
+alias yd="yarn dev"
+alias yi="yarn install"
