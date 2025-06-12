@@ -31,3 +31,17 @@ alias bi="bundle install"
 
 alias yd="yarn dev"
 alias yi="yarn install"
+
+# AWS
+alias aws-staging="aws ecs execute-command \
+                   --cluster staging-cluster \
+                   --task $(aws ecs list-tasks --cluster staging-cluster --service-name staging-rails --query 'taskArns[0]' --output text) \
+                   --container rails \
+                   --interactive \
+                   --command "/bin/bash""
+alias aws-prod="aws ecs execute-command \
+                --cluster production-cluster \
+                --task $(aws ecs list-tasks --cluster production-cluster --service-name production-rails --query 'taskArns[0]' --output text) \
+                --container rails \
+                --interactive \
+                --command "/bin/bash""

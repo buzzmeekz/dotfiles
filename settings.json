@@ -11,7 +11,7 @@
   "editor.snippetSuggestions": "top",
   "editor.trimAutoWhitespace": true,
   "editor.useTabStops": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.scrollBeyondLastLine": true,
   "editor.showFoldingControls": "always",
   "emmet.includeLanguages": {
