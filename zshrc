@@ -76,3 +76,6 @@ if command -v rbenv 1>/dev/null 2>&1; then
 fi
 
 export PATH=$(echo "$PATH" | sed -e 's#\./bin:##')
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
