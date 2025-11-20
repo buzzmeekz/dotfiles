@@ -76,3 +76,4 @@ if command -v rbenv 1>/dev/null 2>&1; then
 fi
 
 export PATH=$(echo "$PATH" | sed -e 's#\./bin:##')
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
