@@ -28,6 +28,9 @@ alias rubocop_auto="rubocop --auto-correct"
 alias rubocop_auto_all="rubocop --auto-correct-all"
 alias bi="bundle install"
 
+# DPP
+alias dpp-dev="$HOME/Code/dotfiles/scripts/dev-dpp.sh"
+
 # JS
 
 alias yd="yarn dev"
