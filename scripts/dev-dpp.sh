@@ -6,7 +6,7 @@ DPP="$HOME/Code/dpp"
 
 # Start redis in the background (daemonized)
 echo "Starting redis-server..."
-redis-server --daemonize yes
+redis-server --daemonize yes --save "" --dir /tmp
 
 # Open iTerm2 with 4 tabs
 osascript <<EOF
