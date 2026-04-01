@@ -15,7 +15,7 @@
   "editor.scrollBeyondLastLine": true,
   "editor.showFoldingControls": "always",
   "emmet.includeLanguages": {
-    "erb": "html"
+    "erb": "html",
   },
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDelete": false,
@@ -46,7 +46,7 @@
     "coverage": true,
     "dist": true,
     "public/packs": true,
-    "**/.egg-info": true
+    "**/.egg-info": true,
   },
   "files.watcherExclude": {
     "**/audits/**": true,
@@ -54,62 +54,62 @@
     "**/log/**": true,
     "**/node_modules/**": true,
     "**/tmp/**": true,
-    "**/vendor/**": true
+    "**/vendor/**": true,
   },
   "search.exclude": {
     "**/node_modules": true,
     "**/tmp": true,
-    "**/log": true
+    "**/log": true,
   },
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "[ruby]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[json]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[markdown]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[yaml]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "editor.codeLens": true,
   "prettier.configPath": "./prettier.config.js",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "files.associations": {
     "*.eslintrc": "json",
     "*.babelrc": "json",
     ".prettierrc": "json",
     "*.yml": "yaml",
-    "*.yaml": "yaml"
+    "*.yaml": "yaml",
   },
   "diffEditor.renderSideBySide": true,
   "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": true
+    "suppressCommitHasNoPreviousCommitWarning": true,
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "window.zoomLevel": 0.25,
@@ -119,5 +119,6 @@
   "git.autofetch": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "eslint.packageManager": "yarn",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
